@@ -12,7 +12,9 @@ header-img: "img/post-bg-02.jpg"
 
 ####这次来介绍如何美化自己的blog
 美化自己的blog其实有两张办法
+
 1. 使用github pages提供的官方模板
+
 2. 用户可以上传自定义模板
 
   上传的模板不是单纯的上传而是要经过一定的处理，要经过Jekyll的处理之后才能显示出来
@@ -28,7 +30,7 @@ header-img: "img/post-bg-02.jpg"
 #####解压之后记得修改_config.yml里面的内容
 ```python
 
-# Site settings
+Site settings
 title: Xiaobai Blog
 header-img: img/home-bg.jpg
 email: username@gmail.com ##这里填上你的email
@@ -37,13 +39,14 @@ url: "http://xiaobaiyizhi.github.io" ##这里填上你的blog地址
 github_username:  xiaobaiyizhi  
 weibo_username: 2031623685
 
-# Build settings
+Build settings
 
 markdown: kramdown
 highlighter: pygments
 permalink: pretty
 paginate: 5
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
 ```
 
 然后将文件上传到你的github仓库上，然后刷新你的blog主页看到你的页面有没有变漂亮了
