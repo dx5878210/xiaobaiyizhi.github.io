@@ -28,26 +28,25 @@ header-img: "img/post-bg-02.jpg"
 ![](https://raw.githubusercontent.com/xiaobaiyizhi/xiaobaiyizhi.github.io/master/img/create-firstblog/filefoler.png)
 
 #####解压之后记得修改_config.yml里面的内容
-```python
 
-Site settings
-title: Xiaobai Blog
-header-img: img/home-bg.jpg
-email: username@gmail.com ##这里填上你的email
-baseurl: ""
-url: "http://xiaobaiyizhi.github.io" ##这里填上你的blog地址
-github_username:  xiaobaiyizhi  
-weibo_username: 2031623685
 
-Build settings
+    # Site settings
+    title: Xiaobai Blog
+    header-img: img/home-bg.jpg
+    email: dx5878210@gmail.com
+    description: "0 0再不疯狂我们就老了"
+    baseurl: ""
+    url: "http://xiaobaiyizhi.github.io"
+    github_username:  xiaobaiyizhi
+    weibo_username: 2031623685
+    
+    # Build settings
+    markdown: kramdown
+    highlighter: pygments
+    permalink: pretty
+    paginate: 5
+    exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
-markdown: kramdown
-highlighter: pygments
-permalink: pretty
-paginate: 5
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
-
-```
 
 然后将文件上传到你的github仓库上，然后刷新你的blog主页看到你的页面有没有变漂亮了
 
