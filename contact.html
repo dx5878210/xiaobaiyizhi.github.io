@@ -9,7 +9,7 @@ header-img: "img/contact-bg.jpg"
 <!-- Contact Form - Enter your email address on line 19 of the mail/contact_me.php file to make this form work. -->
 <!-- WARNING: Some web hosts do not allow emails to be sent through forms to common mail hosts like Gmail or Yahoo. It's recommended that you use a private domain email address! -->
 <!-- NOTE: To use the contact form, your site must be on a live web host with PHP! The form will not work locally! -->
-<form name="sentMessage" id="contactForm" novalidate action="//formspree.io/dx5878210@gmail.com" method="POST">
+<form name="sentMessage" id="contactForm" action="//formspree.io/dx5878210@gmail.com" method="POST">
     <div class="row control-group">
         <div class="form-group col-xs-12 floating-label-form-group controls">
             <label>Name</label>
@@ -60,7 +60,7 @@ var contactForm = document.querySelector('form'),
       sendButton.innerHTML = 'sending..';
 
       var xhr = new XMLHttpRequest();
-      xhr.open('POST', '//formspree.io/contact@heartcoins.org', true);
+      xhr.open('POST', '//formspree.io/dx5878210@gmail.com', true);
       xhr.setRequestHeader("Accept", "application/json")
       xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded")
 
