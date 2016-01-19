@@ -4,7 +4,7 @@ header-img: img/home-bg.jpg
 email: dx5878210@gmail.com
 description: "Write your site description here. It will be used as your sites meta description as well!"
 baseurl: "/blog"
-url: "http://xiaobaiyizhi.github.io"
+url: "http://xiaobaiyizhi.github.io/blog/"
 twitter_username: SBootstrap
 github_username:  xiaobaiyizhi
 facebook_username:  IronSummitMedia
