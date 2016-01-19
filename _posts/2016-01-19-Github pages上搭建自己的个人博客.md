@@ -8,4 +8,5 @@ header-img: "img/post-bg-02.jpg"
 ---
 
 
-<p>今天看到一个blog是写关于Github pages的然后突发奇想在github上面搭建一个个人blog</p>
+##今天看到一个blog是写关于Github pages的然后突发奇想在github上面搭建一个个人blog##
+百度连接<www.baidu.com>
