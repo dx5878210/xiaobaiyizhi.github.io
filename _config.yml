@@ -6,6 +6,7 @@ description: "0 0再不疯狂我们就老了"
 baseurl: ""
 url: "http://xiaobaiyizhi.github.io"
 github_username:  xiaobaiyizhi
+weibo_username: 2031623685
 
 # Build settings
 markdown: kramdown
