@@ -6,8 +6,9 @@ author: Author
 category: other
 ---
 
+
+`
 ```Python
-    # Site settings
     title: Xiaobai Blog
     header-img: img/home-bg.jpg
     email: dx5878210@gmail.com
@@ -17,10 +18,10 @@ category: other
     github_username:  xiaobaiyizhi
     weibo_username: 2031623685
     
-    # Build settings
     markdown: kramdown
     highlighter: pygments
     permalink: pretty
     paginate: 5
     exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 ```
+`
