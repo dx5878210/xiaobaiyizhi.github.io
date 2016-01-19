@@ -13,7 +13,7 @@ header-img: "img/post-bg-02.jpg"
 ####这次来介绍如何美化自己的blog
 美化自己的blog其实有两张办法
 1. 使用github pages提供的官方模板
-1. 用户可以上传自定义模板
+2. 用户可以上传自定义模板
 
   上传的模板不是单纯的上传而是要经过一定的处理，要经过Jekyll的处理之后才能显示出来
 [Jerkll](http://jekyllrb.com/ "Jerkll")是一个静态站点生成器，它会根据网页源码生成静态文件。它提供了模板、变量、插件等功能，所以实际上可以用来编写整个网站。 有兴趣可以参考Jerkll官网
@@ -27,6 +27,7 @@ header-img: "img/post-bg-02.jpg"
 
 #####解压之后记得修改_config.yml里面的内容
 ```python
+
 # Site settings
 title: Xiaobai Blog
 header-img: img/home-bg.jpg
@@ -37,6 +38,7 @@ github_username:  xiaobaiyizhi
 weibo_username: 2031623685
 
 # Build settings
+
 markdown: kramdown
 highlighter: pygments
 permalink: pretty
