@@ -5,4 +5,19 @@ feature-img: "img/sample_feature_img.png"
 author: Author
 category: other
 ---
-##This is an example of a post which includes a feature image specified in the front matter of the post. The feature image spans the full-width of the page, and is shown with the title on permalink pages.
+    # Site settings
+    title: Xiaobai Blog
+    header-img: img/home-bg.jpg
+    email: dx5878210@gmail.com
+    description: "0 0再不疯狂我们就老了"
+    baseurl: ""
+    url: "http://xiaobaiyizhi.github.io"
+    github_username:  xiaobaiyizhi
+    weibo_username: 2031623685
+    
+    # Build settings
+    markdown: kramdown
+    highlighter: pygments
+    permalink: pretty
+    paginate: 5
+    exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
