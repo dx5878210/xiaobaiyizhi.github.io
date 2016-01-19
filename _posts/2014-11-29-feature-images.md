@@ -5,6 +5,7 @@ feature-img: "img/sample_feature_img.png"
 author: Author
 category: other
 ---
+```python
     # Site settings
     title: Xiaobai Blog
     header-img: img/home-bg.jpg
@@ -21,3 +22,4 @@ category: other
     permalink: pretty
     paginate: 5
     exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+```
