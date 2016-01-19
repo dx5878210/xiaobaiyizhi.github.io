@@ -3,10 +3,10 @@ title: Xiaobai Blog
 header-img: img/home-bg.jpg
 email: dx5878210@gmail.com
 description: "Write your site description here. It will be used as your sites meta description as well!"
-baseurl: "/startbootstrap-clean-blog-jekyll"
+baseurl: ""
 url: "http://xiaobaiyizhi.github.io"
 twitter_username: SBootstrap
-github_username:  davidtmiller
+github_username:  xiaobaiyizhi
 facebook_username:  IronSummitMedia
 
 # Build settings
