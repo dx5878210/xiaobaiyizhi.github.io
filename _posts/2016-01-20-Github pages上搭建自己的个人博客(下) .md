@@ -45,10 +45,9 @@ exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 ```
 
 然后将文件上传到你的github仓库上，然后刷新你的blog主页看到你的页面有没有变漂亮了
-<font color=red>
-不同的模板config.yml的内容可能不太一样
 
-对了通常blog的文章都是编辑成markdown格式存放在_post文件夹里面
+####不同的模板config.yml的内容可能不太一样
 
-图片文件存放在img文件夹里面
-</font>
+####对了通常blog的文章都是编辑成markdown格式存放在_post文件夹里面
+
+####图片文件存放在img文件夹里面
