@@ -7,7 +7,6 @@ category: other
 ---
 
 
-`
 ```Python
     title: Xiaobai Blog
     header-img: img/home-bg.jpg
@@ -24,4 +23,3 @@ category: other
     paginate: 5
     exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 ```
-`
