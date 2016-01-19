@@ -67,7 +67,8 @@ var contactForm = document.querySelector('form'),
       xhr.send(
         "name=" + inputName.value +
         "&email=" + inputEmail.value +
-        "&message=" + textAreaMessage.value);
+		"&phone=" + inputPhone.value
+        "&message=" + textAreaMessage.value+);
 
       xhr.onloadend = function (res) {
         if (res.target.status === 200){
