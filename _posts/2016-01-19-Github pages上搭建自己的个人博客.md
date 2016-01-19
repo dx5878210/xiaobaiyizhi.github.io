@@ -7,40 +7,25 @@ author:     "小白一只"
 header-img: "img/post-bg-02.jpg"
 ---
 
+##基于github pages搭建个人blog
+今天看见一篇文章是写关于使用github pages搭建个人blog
+所以一时兴起就搭了一个blog
 
-### 主要特性
+####搭建个人blog仓库&最简单的个人页面
 
-- 支持“标准”Markdown / CommonMark和Github风格的语法，也可变身为代码编辑器；
-- 支持实时预览、图片（跨域）上传、预格式文本/代码/表格插入、代码折叠、搜索替换、只读模式、自定义样式主题和多语言语法高亮等功能；
-- 支持ToC（Table of Contents）、Emoji表情、Task lists、@链接等Markdown扩展语法；
-- 支持TeX科学公式（基于KaTeX）、流程图 Flowchart 和 时序图 Sequence Diagram;
-- 支持识别和解析HTML标签，并且支持自定义过滤标签解析，具有可靠的安全性和几乎无限的扩展性；
-- 支持 AMD / CMD 模块化加载（支持 Require.js & Sea.js），并且支持自定义扩展插件；
-- 兼容主流的浏览器（IE8+）和Zepto.js，且支持iPad等平板设备；
-- 支持自定义主题样式；
+[github pages](https://pages.github.com/ "github pages上面有详细说明如何搭建一个最简单页面")上面有详细说明如何搭建一个最简单页面，按照上面的流程一步步来就行了
+#####搭建仓库，仓库名称用 用户名.github.io命名
+![](https://raw.githubusercontent.com/xiaobaiyizhi/xiaobaiyizhi.github.io/master/img/create-firstblog/pages-create1.png)
+#####clone仓库到本地
+![](https://raw.githubusercontent.com/xiaobaiyizhi/xiaobaiyizhi.github.io/master/img/create-firstblog/pages-create2.png)
+#####建立最简单的index页面到你的工程项目之下
+![](https://raw.githubusercontent.com/xiaobaiyizhi/xiaobaiyizhi.github.io/master/img/create-firstblog/pages-create3.png)
 
-# Editor.md
+#####同步文件到github上面
+![](https://raw.githubusercontent.com/xiaobaiyizhi/xiaobaiyizhi.github.io/master/img/create-firstblog/pages-create4.png)
 
-![](https://pandao.github.io/editor.md/images/logos/editormd-logo-180x180.png)
+#####然后访问 [http://你的用户名.github.io](http://xiaobaiyizhi.github.io "http://你的用户名.github.io")
+![](https://raw.githubusercontent.com/xiaobaiyizhi/xiaobaiyizhi.github.io/master/img/create-firstblog/pages-create5.png)
 
-![](https://img.shields.io/github/stars/pandao/editor.md.svg)
-![](https://img.shields.io/github/forks/pandao/editor.md.svg)
-![](https://img.shields.io/github/tag/pandao/editor.md.svg) 
-![](https://img.shields.io/github/release/pandao/editor.md.svg) 
-![](https://img.shields.io/github/issues/pandao/editor.md.svg) 
-![](https://img.shields.io/bower/v/editor.md.svg)
-
-# Heading 1
-## Heading 2
-### Heading 3
-#### Heading 4
-##### Heading 5
-###### Heading 6
-# Heading 1 link [Heading link](https://github.com/pandao/editor.md "Heading link")
-## Heading 2 link [Heading link](https://github.com/pandao/editor.md "Heading link")
-### Heading 3 link [Heading link](https://github.com/pandao/editor.md "Heading link")
-#### Heading 4 link [Heading link](https://github.com/pandao/editor.md "Heading link") Heading link [Heading link](https://github.com/pandao/editor.md "Heading link")
-##### Heading 5 link [Heading link](https://github.com/pandao/editor.md "Heading link")
-###### Heading 6 link [Heading link](https://github.com/pandao/editor.md "Heading link")
-
-#### 标题（用底线的形式）Heading (underline)
+### 假如能看到消息证明你成功了
+当然这只是很简单的一个页面，要构造好看的页面还差远了
