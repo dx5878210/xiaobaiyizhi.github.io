@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "Github pages 搭建自己的个人blog"
-subtitle:   "使用模板"
+title:      "Github pages 搭建个人blog(上)"
+subtitle:   ""
 date:       2016-01-19 12:00:00
 author:     "小白一只"
 header-img: "img/post-bg-02.jpg"
@@ -31,4 +31,7 @@ header-img: "img/post-bg-02.jpg"
 ![](https://raw.githubusercontent.com/xiaobaiyizhi/xiaobaiyizhi.github.io/master/img/create-firstblog/pages-create5.png)
 
 ### 假如能看到消息证明你成功了
-当然这只是很简单的一个页面，要构造好看的页面还差远了
+当然这只是很简单的一个页面，跟下面好看的页面还差远了
+![](https://raw.githubusercontent.com/xiaobaiyizhi/xiaobaiyizhi.github.io/master/img/create-firstblog/myblog.png)
+
+###(下一篇再介绍如何搭建漂亮的blog)
