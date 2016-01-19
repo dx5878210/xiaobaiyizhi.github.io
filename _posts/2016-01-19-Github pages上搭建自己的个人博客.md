@@ -1,12 +1,18 @@
 ---
-layout:     post
-title:      "Github pages 搭建自己的个人blog"
-subtitle:   "使用模板"
-date:       2016-01-19 12:00:00
-author:     "小白一只"
-header-img: "img/post-bg-02.jpg"
+title: Github pages 上搭建自己的个人博客
+tags: Github pages,blog,jekyll
+grammar_cjkRuby: true
 ---
 
 
-##今天看到一个blog是写关于Github pages的然后突发奇想在github上面搭建一个个人blog##
-百度连接<www.baidu.com>
+今天看到一个blog是写关于Github pages的然后突发奇想在github上面搭建一个个人blog
+
+[连接][1]
+
+
+  [1]: www.baidu.com
+  
+  
+
+     tempalldis[j][k[0]]=[]
+    tempalldis[j][k[0]].append(k[1])
