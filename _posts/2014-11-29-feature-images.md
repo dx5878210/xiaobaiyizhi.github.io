@@ -5,7 +5,8 @@ feature-img: "img/sample_feature_img.png"
 author: Author
 category: other
 ---
-```python
+
+```Python
     # Site settings
     title: Xiaobai Blog
     header-img: img/home-bg.jpg
