@@ -29,7 +29,7 @@ header-img: "img/post-bg-02.jpg"
 
 #####解压之后记得修改_config.yml里面的内容
 
-
+```Python
     # Site settings
     title: Xiaobai Blog
     header-img: img/home-bg.jpg
@@ -46,6 +46,7 @@ header-img: "img/post-bg-02.jpg"
     permalink: pretty
     paginate: 5
     exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+```
 
 
 然后将文件上传到你的github仓库上，然后刷新你的blog主页看到你的页面有没有变漂亮了
