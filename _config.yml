@@ -9,8 +9,8 @@ github_username:  xiaobaiyizhi
 weibo_username: 2031623685
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet
 highlighter: pygments
 permalink: pretty
 paginate: 5
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","fenced_code_blocks", "autolink", "tables", "strikethrough"]
+redcarpet：exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","fenced_code_blocks", "autolink", "tables", "strikethrough"]
