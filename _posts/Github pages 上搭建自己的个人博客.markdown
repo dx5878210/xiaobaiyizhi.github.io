@@ -1,7 +1,10 @@
 ---
+layout:     post
 title: Github pages 上搭建自己的个人博客
 tags: Github pages,blog,jekyll
-grammar_cjkRuby: true
+date:       2016-1-19 12:00:00
+author:     "xiaobai"
+header-img: "img/post-bg-05.jpg"
 ---
 
 
