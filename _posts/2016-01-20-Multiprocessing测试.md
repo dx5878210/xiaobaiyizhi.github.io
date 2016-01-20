@@ -2,7 +2,7 @@
 layout:     post
 title:      "并发多线程测试"
 subtitle:   ""
-date:       2016-01-20 00:00:00
+date:       2016-01-20 00:00:01
 author:     "小白一只"
 header-img: "img/post-bg-02.jpg"
 ---
@@ -59,3 +59,8 @@ if __name__ == '__main__':
 #####线程池pool_size 分别使用 8,16,32进行测试
 
 测试结果如下图所示
+![](https://raw.githubusercontent.com/xiaobaiyizhi/xiaobaiyizhi.github.io/master/img/process-test/c-p8%20.png)
+
+![](https://raw.githubusercontent.com/xiaobaiyizhi/xiaobaiyizhi.github.io/master/img/process-test/c-p16.png)
+
+![](https://raw.githubusercontent.com/xiaobaiyizhi/xiaobaiyizhi.github.io/master/img/process-test/c-p32.png)
