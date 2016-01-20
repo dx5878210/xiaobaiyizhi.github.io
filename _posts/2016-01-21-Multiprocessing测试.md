@@ -1,16 +1,17 @@
 ---
 layout:     post
-title:      "²¢·¢¶àÏß³Ì²âÊÔ"
+title:      "å¹¶å‘å¤šçº¿ç¨‹æµ‹è¯•"
 subtitle:   ""
 date:       2016-01-20 00:00:01
-author:     "Ğ¡°×Ò»Ö»"
+author:     "å°ç™½ä¸€åª"
 header-img: "img/post-bg-02.jpg"
 ---
 
-###Python ²¢·¢ÇëÇóĞÔÄÜ±È½Ï
 
-ÍøÉÏºÜ¶à¶¼ÊÇ½éÉÜÉú²úÕß-Ïû·ÑÕßÄ£ĞÍÀ´×ö²¢·¢
-ËùÒÔ¸ù¾İÍøÉÏÀı×Ó×öÒ»ÏÂ²âÊÔ
+###Python å¹¶å‘è¯·æ±‚æ€§èƒ½æ¯”è¾ƒ
+
+ç½‘ä¸Šå¾ˆå¤šéƒ½æ˜¯ä»‹ç»ç”Ÿäº§è€…-æ¶ˆè´¹è€…æ¨¡å‹æ¥åšå¹¶å‘
+æ‰€ä»¥æ ¹æ®ç½‘ä¸Šä¾‹å­åšä¸€ä¸‹æµ‹è¯•
 
 ```python
 def Producer():
@@ -30,7 +31,7 @@ def Producer():
     ]
     queues = queue.Queue()
     pool_size=int(multiprocessing.cpu_count()*0.5)
-    print('Ïß³Ì³ØÏß³ÌÊıÁ¿£º'+str(pool_size))
+    print('çº¿ç¨‹æ± çº¿ç¨‹æ•°é‡ï¼š'+str(pool_size))
     worker_threads = build_worker_pool(queues, pool_size)
     start_time = time.time()
     results = []
@@ -56,9 +57,9 @@ if __name__ == '__main__':
     Producer()
 ```
 
-#####Ïß³Ì³Øpool_size ·Ö±ğÊ¹ÓÃ 8,16,32½øĞĞ²âÊÔ
+#####çº¿ç¨‹æ± pool_size åˆ†åˆ«ä½¿ç”¨ 8,16,32è¿›è¡Œæµ‹è¯•
 
-²âÊÔ½á¹ûÈçÏÂÍ¼ËùÊ¾
+æµ‹è¯•ç»“æœå¦‚ä¸‹å›¾æ‰€ç¤º
 ![](https://raw.githubusercontent.com/xiaobaiyizhi/xiaobaiyizhi.github.io/master/img/process-test/c-p8%20.png)
 
 ![](https://raw.githubusercontent.com/xiaobaiyizhi/xiaobaiyizhi.github.io/master/img/process-test/c-p16.png)
