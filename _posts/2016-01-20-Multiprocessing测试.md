@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "œﬂ≥Ã≤‚ ‘"
+title:      "Multiprocessing≤‚ ‘"
 subtitle:   ""
 date:       2016-01-21 17:00:00
 author:     "xiaobai"
