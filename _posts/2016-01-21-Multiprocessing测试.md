@@ -65,3 +65,53 @@ if __name__ == '__main__':
 ![](https://raw.githubusercontent.com/xiaobaiyizhi/xiaobaiyizhi.github.io/master/img/process-test/c-p16.png)
 
 ![](https://raw.githubusercontent.com/xiaobaiyizhi/xiaobaiyizhi.github.io/master/img/process-test/c-p32.png)
+
+####生产者-消费者模型之外还能使用multiprocessing中的pool来进行并发请求
+
+```python
+import multiprocessing
+urls = [
+    'http://www.python.org',
+    'https://segmentfault.com/a/1190000000382873',
+    'http://ddt.8888play.com/news_3935.html',
+    'http://douban.fm/',
+    'http://docs.jinkan.org/docs/celery/getting-started/introduction.html',
+    'http://formspree.io/account',
+    'http://46.101.85.29/index/#/mz/multipletextsearch/',
+    'https://pandao.github.io/editor.md/',
+    'https://www.zhihu.com/question/21343711',
+    'https://docs.python.org/3/library/queue.html',
+    'http://www.python.org',
+    'http://www.python.org',
+]
+
+results = []
+
+# starttime = time.time()
+# pool = TreadPool(4)  # 根据核数进行设置
+# results = pool.map(urllib.request.urlopen, urls)
+# print('4pool:' + str(time.time() - starttime))
+
+# starttime = time.time()
+# pool = TreadPool(8)  # 根据核数进行设置
+# results = pool.map(urllib.request.urlopen, urls)
+# print('8pool:' + str(time.time() - starttime))
+
+starttime = time.time()
+pool_size=multiprocessing.cpu_count()*2
+pool = TreadPool(pool_size)  # 根据核数进行设置
+results.append(pool.map_async(urllib.request.urlopen, urls))
+print('16pool:' + str(time.time() - starttime))
+
+
+pool.close()
+pool.join()
+for i in results:
+    print (i.get())
+```
+####以下是4,8,16,32 线程运行的结果
+
+![](https://raw.githubusercontent.com/xiaobaiyizhi/xiaobaiyizhi.github.io/master/img/process-test/pool.png)
+
+我们发现利用同样的线程数利用python的线程处理库速度明显快一点，而且代码更简洁
+
