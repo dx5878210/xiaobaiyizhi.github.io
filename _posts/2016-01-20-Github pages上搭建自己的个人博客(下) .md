@@ -45,7 +45,7 @@ header-img: "img/post-bg-02.jpg"
     highlighter: pygments
     permalink: pretty
     paginate: 5
-    exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+	exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 ```
 
 
