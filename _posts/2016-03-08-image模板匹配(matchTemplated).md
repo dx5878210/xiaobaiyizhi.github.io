@@ -64,6 +64,19 @@ def template_match(whole_image='search1.png', part_image='s11.png'):
 template_match()
 ```
 
+具体算法原理如下
+以8 位图像(其1 个像素由1 个字节描述)为例，模板T( m × n 个像素)叠放在被搜
+索图S( W × H 个像素)上平移，模板覆盖被搜索图的那块区域叫子图Sij。i，j为子图
+左上角在被搜索图S 上的坐标。搜索范围是： 
+1 ≤ i ≤ W – M 
+1 ≤ j ≤ H – N 
+通过比较T 和Sij 的相似性，完成模板匹配过程。
+衡量模板T和子图Si,j的匹配程度,可用下列两种测度:
+![enter image description here](https://i.imgur.com/aS9yk9a.png)
+展开前一个式子,有:![enter image description here](https://i.imgur.com/WPlos8f.png)
+(3)式右边的第三项表示模板的总能量,是一个常数,与(i,j)无关。第一项是模板覆盖下那块子图像的能量,它随(i,j)位置而缓慢改变。第二项是子图像和模板的互相关函数,随(i,j)变化而迅速改变。模板T和子图Si,j匹配时这一项的值最大,因此可以用下列相关函数来反应匹配程度:
+![enter image description here](https://i.imgur.com/i3Nx2es.png)
+
 
 
 
