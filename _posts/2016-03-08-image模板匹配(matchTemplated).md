@@ -16,7 +16,7 @@ header-img: "img/post-bg-06.jpg"
   ![目标图片](https://i.imgur.com/1nPlbNk.png)![例如这张寻找s11的位置](https://i.imgur.com/lTqn2aH.png)
 
 先上源码
-
+```python
 	from matplotlib import pyplot as plt
 	import os
 	import cv2
@@ -60,7 +60,7 @@ header-img: "img/post-bg-06.jpg"
 	    plt.show()
 
 	template_match()
-
+```
 
 
 
