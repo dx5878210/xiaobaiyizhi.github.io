@@ -1,3 +1,3 @@
 
-###[View Live Demo &rarr;](http://xiaobaiyizhi.github.io/)
+###[浏览blog &rarr;](http://xiaobaiyizhi.github.io/)
 
