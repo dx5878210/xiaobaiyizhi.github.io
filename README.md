@@ -1,3 +1,3 @@
 
-###[浏览blog &rarr;](http://xiaobaiyizhi.github.io/)
+###[点我blog &rarr;](http://xiaobaiyizhi.github.io/)
 
